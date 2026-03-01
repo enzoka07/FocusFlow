@@ -568,3 +568,243 @@ nav { padding: 16px 20px; }
 
 </body>
 </html>
+<!DOCTYPE html>
+
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FocusFlow – Nutzungsbedingungen</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0f0f13;
+    --surface: #18181f;
+    --border: #2a2a35;
+    --purple: #a78bfa;
+    --purple-dim: #7c3aed;
+    --indigo: #818cf8;
+    --text: #e8e8f0;
+    --muted: #6b6b80;
+    --accent: #c4b5fd;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.8;
+    min-height: 100vh;
+  }
+  nav {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 100;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(15,15,19,0.8);
+    backdrop-filter: blur(20px);
+    border-bottom: 1px solid var(--border);
+  }
+  .nav-logo {
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.4rem;
+    background: linear-gradient(135deg, var(--purple), var(--indigo));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-decoration: none;
+  }
+  .nav-links { display: flex; gap: 32px; }
+  .nav-links a {
+    color: var(--muted);
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: color 0.2s;
+  }
+  .nav-links a:hover { color: var(--accent); }
+
+.page-header {
+padding: 140px 40px 60px;
+max-width: 760px;
+margin: 0 auto;
+}
+.section-label {
+font-size: 0.75rem;
+font-weight: 600;
+letter-spacing: 0.12em;
+text-transform: uppercase;
+color: var(–purple);
+margin-bottom: 12px;
+}
+.page-header h1 {
+font-family: ‘DM Serif Display’, serif;
+font-size: 3rem;
+margin-bottom: 16px;
+}
+.page-header .meta { color: var(–muted); font-size: 0.9rem; }
+
+.content {
+max-width: 760px;
+margin: 0 auto;
+padding: 0 40px 100px;
+}
+.content h2 {
+font-family: ‘DM Serif Display’, serif;
+font-size: 1.6rem;
+margin: 48px 0 16px;
+color: var(–text);
+padding-bottom: 12px;
+border-bottom: 1px solid var(–border);
+}
+.content h3 {
+font-size: 1rem;
+font-weight: 600;
+margin: 24px 0 8px;
+color: var(–accent);
+}
+.content p { color: #b0b0c0; margin-bottom: 16px; font-size: 0.95rem; }
+.content ul {
+list-style: none;
+margin: 0 0 16px;
+padding: 0;
+}
+.content ul li {
+color: #b0b0c0;
+font-size: 0.95rem;
+padding: 6px 0 6px 20px;
+position: relative;
+}
+.content ul li::before {
+content: ‘–’;
+position: absolute;
+left: 0;
+color: var(–purple);
+}
+.highlight-box {
+background: var(–surface);
+border: 1px solid var(–border);
+border-left: 3px solid var(–purple);
+border-radius: 0 12px 12px 0;
+padding: 20px 24px;
+margin: 24px 0;
+}
+.highlight-box p { color: var(–text); margin: 0; font-size: 0.95rem; }
+a { color: var(–accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+footer {
+border-top: 1px solid var(–border);
+padding: 40px;
+text-align: center;
+color: var(–muted);
+font-size: 0.85rem;
+}
+footer a { color: var(–muted); text-decoration: none; margin: 0 16px; }
+footer a:hover { color: var(–accent); }
+.footer-links { margin-bottom: 16px; }
+
+@media (max-width: 600px) {
+nav { padding: 16px 20px; }
+.nav-links { gap: 16px; }
+.page-header, .content { padding-left: 20px; padding-right: 20px; }
+}
+</style>
+
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="nav-logo">FocusFlow</a>
+  <div class="nav-links">
+    <a href="index.html">Support</a>
+    <a href="privacy.html">Datenschutz</a>
+    <a href="terms.html">AGB</a>
+  </div>
+</nav>
+
+<div class="page-header">
+  <div class="section-label">Rechtliches</div>
+  <h1>Nutzungs&shy;bedingungen</h1>
+  <p class="meta">Zuletzt aktualisiert: Januar 2025</p>
+</div>
+
+<div class="content">
+
+  <div class="highlight-box">
+    <p>Durch die Nutzung von FocusFlow stimmst du diesen Nutzungsbedingungen zu. Bitte lies sie sorgfältig durch.</p>
+  </div>
+
+  <h2>1. Anbieter</h2>
+  <p>
+    Enzo Kaiser<br>
+    Deutschland<br>
+    E-Mail: <a href="mailto:hello.aerohq@gmail.com">hello.aerohq@gmail.com</a>
+  </p>
+
+  <h2>2. Leistungsbeschreibung</h2>
+  <p>FocusFlow ist eine iOS-App für Aufgabenverwaltung, Habit-Tracking und fokussiertes Arbeiten (Pomodoro-Timer). Die App ist kostenlos nutzbar; erweiterte Funktionen sind über ein Premium-Abonnement zugänglich.</p>
+
+  <h2>3. Nutzungsbedingungen für die App</h2>
+  <p>Du darfst FocusFlow ausschließlich für persönliche, nicht-kommerzielle Zwecke nutzen. Folgendes ist untersagt:</p>
+  <ul>
+    <li>Reverse Engineering, Dekompilierung oder Modifikation der App</li>
+    <li>Nutzung der App für illegale Zwecke</li>
+    <li>Umgehung von Sicherheitsmechanismen oder Lizenzprüfungen</li>
+    <li>Weitergabe oder Verkauf von Zugangsdaten</li>
+  </ul>
+
+  <h2>4. Premium-Abonnement</h2>
+
+  <h3>Abonnementoptionen</h3>
+  <p>FocusFlow Premium ist als Monats- oder Jahresabonnement erhältlich. Die genauen Preise werden im App Store angezeigt.</p>
+
+  <h3>Abrechnung</h3>
+  <p>Die Abrechnung erfolgt über deinen Apple-ID-Account. Das Abonnement verlängert sich automatisch, sofern du es nicht mindestens 24 Stunden vor Ende der aktuellen Laufzeit kündigst.</p>
+
+  <h3>Kündigung</h3>
+  <p>Du kannst dein Abonnement jederzeit kündigen: iOS-Einstellungen → [dein Name] → Abonnements → FocusFlow. Die Kündigung wird zum Ende der bezahlten Laufzeit wirksam.</p>
+
+  <h3>Kostenlose Testperiode</h3>
+  <p>Sofern eine kostenlose Testperiode angeboten wird, wird diese automatisch in ein kostenpflichtiges Abonnement umgewandelt, wenn sie nicht rechtzeitig gekündigt wird.</p>
+
+  <h3>Rückerstattungen</h3>
+  <p>Rückerstattungsanfragen werden gemäß den Apple-Richtlinien über den App Store abgewickelt. Bitte wende dich dafür direkt an Apple.</p>
+
+  <h2>5. Geistiges Eigentum</h2>
+  <p>Alle Inhalte der App – einschließlich Design, Code, Grafiken und Texte – sind urheberrechtlich geschützt und Eigentum von Enzo Kaiser. Die Nutzung der App gewährt dir eine nicht-exklusive, nicht-übertragbare Lizenz zur persönlichen Nutzung.</p>
+
+  <h2>6. Haftungsausschluss</h2>
+  <p>FocusFlow wird "wie besehen" bereitgestellt. Wir übernehmen keine Garantie für die ununterbrochene Verfügbarkeit, Fehlerfreiheit oder einen bestimmten Zweck der App.</p>
+  <p>Wir haften nicht für Datenverlust, der durch technische Fehler, Geräteverlust, App-Deinstallation oder iOS-Updates entstehen kann. Wir empfehlen, regelmäßig Gerätesicherungen (iCloud-Backup) durchzuführen.</p>
+
+  <h2>7. Apple-spezifische Bedingungen</h2>
+  <p>FocusFlow wird über den Apple App Store vertrieben und unterliegt den <a href="https://www.apple.com/legal/internet-services/itunes/de/terms.html" target="_blank">Apple Media Services-Nutzungsbedingungen</a>. Apple ist kein Vertragspartner dieser Vereinbarung, sondern lediglich Vertriebspartner.</p>
+
+  <h2>8. Änderungen der Nutzungsbedingungen</h2>
+  <p>Wir behalten uns vor, diese Nutzungsbedingungen zu ändern. Wesentliche Änderungen werden per App-Update kommuniziert. Die weitere Nutzung der App nach Änderungen gilt als Zustimmung zu den neuen Bedingungen.</p>
+
+  <h2>9. Anwendbares Recht</h2>
+  <p>Es gilt deutsches Recht unter Ausschluss des UN-Kaufrechts. Gerichtsstand ist, soweit gesetzlich zulässig, Deutschland.</p>
+
+  <h2>10. Kontakt</h2>
+  <p>Bei Fragen zu diesen Nutzungsbedingungen erreichst du uns unter:<br>
+  <a href="mailto:hello.aerohq@gmail.com">hello.aerohq@gmail.com</a></p>
+
+</div>
+
+<footer>
+  <div class="footer-links">
+    <a href="index.html">Support</a>
+    <a href="privacy.html">Datenschutzrichtlinie</a>
+    <a href="terms.html">Nutzungsbedingungen</a>
+  </div>
+  <p>© 2025 Enzo Kaiser · FocusFlow</p>
+</footer>
+
+</body>
+</html>
